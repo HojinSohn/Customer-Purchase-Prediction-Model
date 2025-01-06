@@ -1,0 +1,40 @@
+{
+    "src_entity": {
+        "FN": "category",
+        "active_status": "category",
+        "member_status": "category",
+        "news_frequency": "category",
+        "age": "float64",
+        "postal_code": "category"
+    },
+    "tar_entity": {
+        "product_code": "Int64",
+        "prod_name": "category",
+        "prod_type_no": "Int64",
+        "prod_type_name": "category",
+        "prod_group_name": "category",
+        "graph_appearance_no": "Int64",
+        "graph_appearance_name": "category",
+        "colour_group_code": "Int64",
+        "colour_group_name": "category",
+        "perceived_colour_value_id": "Int64",
+        "perceived_colour_value_name": "category",
+        "perceived_colour_master_id": "Int64",
+        "perceived_colour_master_name": "category",
+        "department_no": "Int64",
+        "department_name": "category",
+        "idx_code": "category",
+        "idx_name": "category",
+        "idx_group_no": "category",
+        "idx_group_name": "category",
+        "sec_no": "Int64",
+        "sec_name": "category",
+        "garment_group_no": "category",
+        "garment_group_name": "category",
+        "detail_desc": "category"
+    },
+    "pkeys": {
+        "customer_id": "Int64",
+        "product_id": "Int64"
+    }
+}

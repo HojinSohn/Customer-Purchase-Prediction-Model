@@ -1,0 +1,138 @@
+Training Accuracy: 0.8681761667387217
+Training Presicion: 0.8403917084184243
+Training Recall: 0.9089886448824951
+Training Mean Average Precision: 0.8094121977645009
+
+Validation Accuracy: 0.8182157434894076
+Validation Presicion: 0.823476714031591
+Validation Recall: 0.8100838280933748
+Validation Mean Average Precision: 0.762043254801777
+
+More pairs
+
+Training Accuracy: 0.8740298261258292
+Training Presicion: 0.8486812549464468
+Training Recall: 0.9103790287568622
+Training Mean Average Precision: 0.81743210222387
+
+Validation Accuracy: 0.8318314836054513
+Validation Presicion: 0.8357059061920099
+Validation Recall: 0.8260609229523681
+Validation Mean Average Precision: 0.7773135307095328
+
+
+Some pairs removed:
+
+Training Accuracy: 0.8733663216898444
+Training Presicion: 0.8483775303762568
+Training Recall: 0.9092308495866335
+Training Mean Average Precision: 0.8167555979208972
+
+Validation Accuracy: 0.8310345263797059
+Validation Presicion: 0.8353717666659547
+Validation Recall: 0.824568209418432
+Validation Mean Average Precision: 0.7765368971292423
+
+
+Many pairs > some pairs ?
+
+Next try with product -> customer
+top age for each product
+whether more subscribed customers than unsub customers for each product
+whether more active customers than not for each product
+
+
+Training Accuracy: 0.8735475772289978
+Training Presicion: 0.8476583230595712
+Training Recall: 0.9107813387302152
+Training Mean Average Precision: 0.816640712896898
+
+Validation Accuracy: 0.832023343678316
+Validation Presicion: 0.835001106175865
+Validation Recall: 0.8275789367156929
+Validation Mean Average Precision: 0.7772398592476033
+
+
+    train0
+    xgb_model = XGBClassifier(
+        n_estimators=100,
+        max_depth=7,
+        learning_rate=0.1,
+        subsample=0.9,
+        objective='binary:logistic',
+        eval_metric='auc',
+        enable_categorical=True,
+        device='cuda',
+        predictor='gpu_predictor'
+    )
+Training Accuracy: 0.892316660325376
+Training Presicion: 0.8705120338955141
+Training Recall: 0.9217416511962676
+Training Mean Average Precision: 0.8415163739109386
+
+Validation Accuracy: 0.8304715962758062
+Validation Presicion: 0.8463282278805447
+Validation Recall: 0.8075791053838888
+Validation Mean Average Precision: 0.7796874404409578
+    
+    train1
+       xgb_model = XGBClassifier(
+        n_estimators=50
+        max_depth=3
+        learning_rate=0.05,
+        subsample=0.9,
+        objective='binary:logistic',
+        eval_metric='auc',
+        enable_categorical=True,
+        device='cuda',
+        predictor='gpu_predictor'
+    )
+    
+Training Accuracy: 0.8712281734331232
+Training Presicion: 0.8385371046964601
+Training Recall: 0.9195110178882009
+Training Mean Average Precision: 0.8112885977323665
+
+Validation Accuracy: 0.8323838719471056
+Validation Presicion: 0.8264279709622783
+Validation Recall: 0.8415067129941978
+Validation Mean Average Precision: 0.7746913288738322
+
+
+train 4
+xgb_model = XGBClassifier(
+        n_estimators=100,
+        max_depth=10,
+        learning_rate=0.1,
+        subsample=0.9,
+        objective='binary:logistic',
+        eval_metric='auc',
+        enable_categorical=True,
+        device='cuda',
+        predictor='gpu_predictor'
+    )
+
+
+train 5
+xgb_model = XGBClassifier(
+        n_estimators=100,
+        max_depth=10,
+        learning_rate=0.01,
+        subsample=0.9,
+        objective='binary:logistic',
+        eval_metric='auc',
+        enable_categorical=True,
+        device='cuda',
+        predictor='gpu_predictor'
+    )
+    
+Training Accuracy: 0.881959812819353
+Training Presicion: 0.8587773390751328
+Training Recall: 0.9142674187065875
+Training Mean Average Precision: 0.8280184316866397
+
+Validation Accuracy: 0.8435960902712185
+Validation Presicion: 0.8449765667667218
+Validation Recall: 0.8415952637970584
+Validation Mean Average Precision: 0.7903306447118428
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

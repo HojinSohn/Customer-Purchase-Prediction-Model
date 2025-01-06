@@ -1,0 +1,43 @@
+Index(['time_date', 'customer_id', 'product_id', 'price', 'sales_channel_id',
+       'FN', 'active_status', 'member_status', 'news_frequency', 'age',
+       'postal_code', 'product_code', 'prod_name', 'prod_type_no',
+       'prod_type_name', 'prod_group_name', 'graph_appearance_no',
+       'graph_appearance_name', 'colour_group_code', 'colour_group_name',
+       'perceived_colour_value_id', 'perceived_colour_value_name',
+       'perceived_colour_master_id', 'perceived_colour_master_name',
+       'department_no', 'department_name', 'idx_code', 'idx_name',
+       'idx_group_no', 'idx_group_name', 'sec_no', 'sec_name',
+       'garment_group_no', 'garment_group_name', 'detail_desc'],
+      dtype='object')
+['time_date', 'customer_id', 'product_id', 'FN', 'active_status', 'member_status', 'news_frequency', 'age', 'postal_code', 'last_purchase_date', 'first_purchase_date', 'total_purchases', 'total_spent', 'top_perceived_color', 'top_prod_group', 'top_idx_group_no', 'top_sec_no', 'top_garment_group_no', 'top_idx_code', 'top_department_no', 'top_prod_type_no', 'top_graph_appearance_no', 'top_colour_group_code', 'top_perceived_colour_master_id', 'link_pred_baseline_target', 'product_code', 'prod_name', 'prod_type_no', 'prod_type_name', 'prod_group_name', 'graph_appearance_no', 'graph_appearance_name', 'colour_group_code', 'colour_group_name', 'perceived_colour_value_id', 'perceived_colour_value_name', 'perceived_colour_master_id', 'perceived_colour_master_name', 'department_no', 'department_name', 'idx_code', 'idx_name', 'idx_group_no', 'idx_group_name', 'sec_no', 'sec_name', 'garment_group_no', 'garment_group_name', 'detail_desc', 'average_price', 'price_std', 'popularity', 'average_age', 'std_age', 'average_FN', 'std_FN', 'average_active', 'std_active', 'average_member', 'std_member', 'average_news', 'std_news']
+Index(['time_date', 'customer_id', 'product_id', 'last_purchase_date',
+       'first_purchase_date', 'total_purchases', 'total_spent',
+       'link_pred_baseline_target', 'prod_group_name', 'average_price',
+       'price_std', 'popularity', 'perceived_color_match', 'prod_group_match',
+       'idx_group_match', 'sec_no_match', 'garment_group_no_match',
+       'idx_code_match', 'department_no_match', 'prod_type_no_match',
+       'graph_appearance_no_match', 'colour_group_code_match',
+       'perceived_colour_master_id_match', 'age_similarity', 'FN_similarity',
+       'active_similarity', 'member_similarity', 'news_similarity'],
+      dtype='object')
+['time_date', 'customer_id', 'product_id', 'FN', 'active_status', 'member_status', 'news_frequency', 'age', 'postal_code', 'last_purchase_date', 'first_purchase_date', 'total_purchases', 'total_spent', 'top_perceived_color', 'top_prod_group', 'top_idx_group_no', 'top_sec_no', 'top_garment_group_no', 'top_idx_code', 'top_department_no', 'top_prod_type_no', 'top_graph_appearance_no', 'top_colour_group_code', 'top_perceived_colour_master_id', 'link_pred_baseline_target', 'product_code', 'prod_name', 'prod_type_no', 'prod_type_name', 'prod_group_name', 'graph_appearance_no', 'graph_appearance_name', 'colour_group_code', 'colour_group_name', 'perceived_colour_value_id', 'perceived_colour_value_name', 'perceived_colour_master_id', 'perceived_colour_master_name', 'department_no', 'department_name', 'idx_code', 'idx_name', 'idx_group_no', 'idx_group_name', 'sec_no', 'sec_name', 'garment_group_no', 'garment_group_name', 'detail_desc', 'average_price', 'price_std', 'popularity', 'average_age', 'std_age', 'average_FN', 'std_FN', 'average_active', 'std_active', 'average_member', 'std_member', 'average_news', 'std_news']
+Index(['time_date', 'customer_id', 'product_id', 'last_purchase_date',
+       'first_purchase_date', 'total_purchases', 'total_spent',
+       'link_pred_baseline_target', 'prod_group_name', 'average_price',
+       'price_std', 'popularity', 'perceived_color_match', 'prod_group_match',
+       'idx_group_match', 'sec_no_match', 'garment_group_no_match',
+       'idx_code_match', 'department_no_match', 'prod_type_no_match',
+       'graph_appearance_no_match', 'colour_group_code_match',
+       'perceived_colour_master_id_match', 'age_similarity', 'FN_similarity',
+       'active_similarity', 'member_similarity', 'news_similarity'],
+      dtype='object')
+Training Accuracy: 0.8825979975773465
+Training Presicion: 0.8585255152615332
+Training Recall: 0.9161695026601202
+Training Mean Average Precision: 0.8284701430081222
+
+Validation Accuracy: 0.8438912596140872
+Validation Presicion: 0.842970028050078
+Validation Recall: 0.8452342801241398
+Validation Mean Average Precision: 0.7898900247630638
+

@@ -1,0 +1,12 @@
+lmod: xalt was automatically unloaded
+/home/sohn31/.conda/envs/cent7/2024.02-py311/CS373/lib/python3.11/site-packages/xgboost/core.py:265: FutureWarning: Your system has an old version of glibc (< 2.28). We will stop supporting Linux distros with glibc older than 2.28 after **May 31, 2025**. Please upgrade to a recent Linux distro (with glibc 2.28+) to use future versions of XGBoost.
+Note: You have installed the 'manylinux2014' variant of XGBoost. Certain features such as GPU algorithms or federated learning are not available. To use these features, please upgrade to a recent Linux distro with glibc 2.28+, and install the 'manylinux_2_28' variant.
+  warnings.warn(
+/home/sohn31/KaggleCompetition/data_utils.py:195: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  prod_group_preference = (transaction_data_expand.groupby([src_entity, "prod_group_name"]).size().reset_index(name='prod_count'))
+/home/sohn31/KaggleCompetition/data_utils.py:204: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  idx_group_preference = (transaction_data_expand.groupby([src_entity, "idx_group_no"]).size().reset_index(name='idx_group_no_count'))
+/home/sohn31/KaggleCompetition/data_utils.py:224: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  garment_group_preference = (transaction_data_expand.groupby([src_entity, "garment_group_no"]).size().reset_index(name='garment_group_no_count'))
+/home/sohn31/KaggleCompetition/data_utils.py:233: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  idx_code_preference = (transaction_data_expand.groupby([src_entity, "idx_code"]).size().reset_index(name='idx_code_count'))
