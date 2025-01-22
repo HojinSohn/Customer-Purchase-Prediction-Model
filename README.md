@@ -26,19 +26,19 @@ All datasets were provided as tabular data stored in CSV files. The data include
   - Pre-Created = 1
   - Left Club = -1
   - Unknown = 0
-- The `news_frequency` column was encoded as:
+- The `news_frequency` column was mapped to numerical values:
   - None = -1
   - Regularly = 1
   - Monthly = 0.5
 - Missing values in the `FN` column were filled with -1.
-- Mean and standard deviation of each customer’s features were calculated for further analysis.
+- Mean and standard deviation of each customer’s features were calculated.
 
 #### Customer-Product Pair Data
 - Using transaction data, customer preferences for product attributes (e.g., color, department, garment group, product group, index group) were calculated.
 - Product-based distributions for customer attributes (e.g., age distribution) were computed to capture product popularity among different customer segments.
 
 #### Handling Missing Data and Noise
-- Irrelevant features, such as ZIP codes and product descriptions, were excluded from the analysis.
+- Irrelevant features, such as ZIP codes and product descriptions, were dropped.
 
 ---
 
@@ -79,10 +79,7 @@ The model’s performance was assessed on training and validation datasets:
 - **Training Set Precision:** 0.828
 - **Validation Set Precision:** 0.790
 
-### Cross-Validation
-Although k-fold cross-validation was not implemented during the initial development phase, it could have been applied to improve the model’s generalizability and performance on the test dataset.
-
 ---
 
 ## Conclusion
-This project successfully developed a machine learning model using XGBoost to predict customer purchases. By preprocessing tabular datasets and leveraging paired customer-product data, the model achieved promising precision scores on both training and validation datasets. Future iterations of this project could incorporate more advanced feature engineering and k-fold cross-validation to further enhance performance.
+This project successfully developed a machine learning model using XGBoost to predict customer purchases. By preprocessing tabular datasets and leveraging paired customer-product data, the model achieved promising precision scores on both training and validation datasets. K-fold cross-validation could be incorporated for better performance.
